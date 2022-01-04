@@ -13,14 +13,16 @@ The file index.js contains the main code used for the API.
 The file testAPI.py contains an example made in python on how the API can be called.
 
 The Heroku platform is used to host the API. To host your own API, create an account at [Cloud Application Platform | Heroku](https://www.heroku.com/), then run the following three lines to upload your own local repository to the Heroku platform:
-
+```
 $ git add .
-$ git commit -am "(your comment)"
-$ git push heroku master
 
+$ git commit -am "(your comment)"
+
+$ git push heroku master
+```
 This API uses the following base: https://sheet-music-finder.herokuapp.com".  Than, by adding "/sheets/(instrument)/(page)" to the end of the link, a list  with the first “page” pages of sheets of the selected instrument is returned. The returned .json has the following keys: 
-json 
-{“title_text_of_element”: (Song name), “url”: (Song url), “source”: (site where song came”}. 
+ 
+`{“title_text_of_element”: (Song name), “url”: (Song url), “source”: (site where song came”)}.` 
 
 Feel free to increment the API functionalities or add more sources. 
 
