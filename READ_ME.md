@@ -2,8 +2,7 @@ This project is a simple API example for a dynamic loaded page, that uses node.j
 
 The API takes information from the sheet music site "https://musescore.com/", and presents the most popular sheets from the specified instrument.  
 
-It has dependencies of the following libraries, downloaded using node.js: 
-* Axios: 0.24.0, 
+It has dependencies of the following libraries, downloaded using node.js:  
 * Cheerio: 1.0.0-rc.10, 
 * Express: 4.17.2,
 * Nodemon: 2.0.15, 
